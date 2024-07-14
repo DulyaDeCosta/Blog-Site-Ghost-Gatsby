@@ -1,0 +1,30 @@
+{
+  "url": "http://127.0.0.1:2369/",
+  "server": {
+    "port": 2369,
+    "host": "127.0.0.1"
+  },
+    "database": {
+      "client": "mysql",
+      "connection": {
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "dulya",
+        "password": "dulya@1120",
+        "database": "ghost_cms"
+      }
+    },
+  "mail": {
+    "transport": "Direct"
+  },
+  "logging": {
+    "transports": [
+      "file",
+      "stdout"
+    ]
+  },
+  "process": "local",
+  "paths": {
+    "contentPath": "/Users/dulyadecosta/test-project/ghost/content"
+  }
+}
